@@ -1,0 +1,30 @@
+[
+  {
+    "file": "legal/upstream/proxy_tools/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/jtushman/proxy_tools/master/LICENSE.txt",
+    "sha256": "a428fb8a2e762af3eb0a6edbbb88e9b42ccfee80fd9b423958bcacf9b9abbfe4",
+    "status": "downloaded",
+    "bytes": 1436
+  },
+  {
+    "file": "legal/upstream/proxy_tools/Werkzeug-0.9.4-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/pallets/werkzeug/0.9.4/LICENSE",
+    "sha256": "41fe7d01e6145b3df6e0652b23d0ea1cba050eab48209a99a1ecf3c70afd9e5f",
+    "status": "downloaded",
+    "bytes": 1532
+  },
+  {
+    "file": "legal/upstream/PortAudio/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/PortAudio/portaudio/v19.7.0/LICENSE.txt",
+    "sha256": "ec52a1952d701f94e5135719a47376da4ee0b4a0201f1cafb49f61db6480ac3d",
+    "status": "downloaded",
+    "bytes": 3524
+  },
+  {
+    "file": "legal/upstream/Python/LICENSE-3.13.txt",
+    "url": "https://raw.githubusercontent.com/python/cpython/3.13/LICENSE",
+    "sha256": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb",
+    "status": "downloaded",
+    "bytes": 13809
+  }
+]

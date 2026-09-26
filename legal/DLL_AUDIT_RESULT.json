@@ -1,0 +1,2971 @@
+{
+  "scope": "Original EXE DLL bytes checked against updated source references; not a rebuilt executable",
+  "exe_sha256": "08e71423cd4b0c1bf421d202751accbd32d5285df75b3c41cfc451c9e81bee5f",
+  "dll_count": 121,
+  "upstream_hash_matches": 121,
+  "review_required": 4,
+  "review": [
+    {
+      "name": "MSVCP140.dll",
+      "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+      "status": "review_required",
+      "reference": {
+        "name": "MSVCP140.dll",
+        "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+        "component": "Visual C++ Runtime 14.51.36247.0",
+        "documents": [
+          "upstream/VisualCpp-14.51.36247/RUNTIME-LICENSE.txt",
+          "upstream/VisualCpp-14.51.36247/DISTRIBUTION-NOTE.txt"
+        ],
+        "basis": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe -> a4/msvcp140.dll_amd64",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
+          "archive_sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+          "member": "a4/msvcp140.dll_amd64"
+        },
+        "review_required": true,
+        "remaining_action": "Confirm an applicable Microsoft Visual Studio / Build Tools redistribution grant. The runtime installation license is not a redistribution grant.",
+        "document_sha256": {
+          "upstream/VisualCpp-14.51.36247/RUNTIME-LICENSE.txt": "3dfd057b91025067c08bd73c3cb0e6f712f76b6198b54413e14365d529f17ea6",
+          "upstream/VisualCpp-14.51.36247/DISTRIBUTION-NOTE.txt": "7a5241e217b5356db94b4ad7809b8c5c9987745aec8bb645eab0affe8e5d4748"
+        }
+      },
+      "reason": "Confirm an applicable Microsoft Visual Studio / Build Tools redistribution grant. The runtime installation license is not a redistribution grant."
+    },
+    {
+      "name": "VCOMP140.DLL",
+      "sha256": "95d4ce4a6802d1e18b5e0e1722cc30ea72ca7e033f83828f05c0b7b993fe7cbf",
+      "status": "review_required",
+      "reference": {
+        "name": "VCOMP140.DLL",
+        "sha256": "95d4ce4a6802d1e18b5e0e1722cc30ea72ca7e033f83828f05c0b7b993fe7cbf",
+        "component": "Visual C++ Runtime 14.51.36247.0",
+        "documents": [
+          "upstream/VisualCpp-14.51.36247/RUNTIME-LICENSE.txt",
+          "upstream/VisualCpp-14.51.36247/DISTRIBUTION-NOTE.txt"
+        ],
+        "basis": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe -> a4/vcomp140.dll_amd64",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
+          "archive_sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+          "member": "a4/vcomp140.dll_amd64"
+        },
+        "review_required": true,
+        "remaining_action": "Confirm an applicable Microsoft Visual Studio / Build Tools redistribution grant. The runtime installation license is not a redistribution grant.",
+        "document_sha256": {
+          "upstream/VisualCpp-14.51.36247/RUNTIME-LICENSE.txt": "3dfd057b91025067c08bd73c3cb0e6f712f76b6198b54413e14365d529f17ea6",
+          "upstream/VisualCpp-14.51.36247/DISTRIBUTION-NOTE.txt": "7a5241e217b5356db94b4ad7809b8c5c9987745aec8bb645eab0affe8e5d4748"
+        }
+      },
+      "reason": "Confirm an applicable Microsoft Visual Studio / Build Tools redistribution grant. The runtime installation license is not a redistribution grant."
+    },
+    {
+      "name": "VCRUNTIME140.dll",
+      "sha256": "052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4",
+      "status": "documented_reference",
+      "reference": {
+        "name": "VCRUNTIME140.dll",
+        "sha256": "052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4",
+        "component": "Python-3.13.14",
+        "documents": [
+          "upstream/Python-3.13.14/LICENSE.txt",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt"
+        ],
+        "basis": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip -> vcruntime140.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip",
+          "archive_sha256": "90b4e5b9898b72d744650524bff92377c367f44bd5fbd09e3148656c080ad907",
+          "member": "vcruntime140.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Python-3.13.14/LICENSE.txt": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        }
+      }
+    },
+    {
+      "name": "VCRUNTIME140_1.dll",
+      "sha256": "6a99bc0128e0c7d6cbbf615fcc26909565e17d4ca3451b97f8987f9c6acbc6c8",
+      "status": "documented_reference",
+      "reference": {
+        "name": "VCRUNTIME140_1.dll",
+        "sha256": "6a99bc0128e0c7d6cbbf615fcc26909565e17d4ca3451b97f8987f9c6acbc6c8",
+        "component": "Python-3.13.14",
+        "documents": [
+          "upstream/Python-3.13.14/LICENSE.txt",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt"
+        ],
+        "basis": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip -> vcruntime140_1.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip",
+          "archive_sha256": "90b4e5b9898b72d744650524bff92377c367f44bd5fbd09e3148656c080ad907",
+          "member": "vcruntime140_1.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Python-3.13.14/LICENSE.txt": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        }
+      }
+    },
+    {
+      "name": "_sounddevice_data/portaudio-binaries/libportaudio32bit.dll",
+      "sha256": "3d27383a00397dae64b266189791ac20f84a19820778724e05705c2f6012dfd9",
+      "status": "documented_reference",
+      "reference": {
+        "name": "_sounddevice_data/portaudio-binaries/libportaudio32bit.dll",
+        "sha256": "3d27383a00397dae64b266189791ac20f84a19820778724e05705c2f6012dfd9",
+        "component": "sounddevice-0.5.6",
+        "documents": [
+          "upstream/sounddevice-0.5.6/LICENSE",
+          "upstream/PortAudio/LICENSE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/8d/3e/cbc593c31a5f0d817b3fe97e64aa8461bd0f55cb07b67ce1b776296ae336/sounddevice-0.5.6-py3-none-win_amd64.whl -> _sounddevice_data/portaudio-binaries/libportaudio32bit.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/8d/3e/cbc593c31a5f0d817b3fe97e64aa8461bd0f55cb07b67ce1b776296ae336/sounddevice-0.5.6-py3-none-win_amd64.whl",
+          "archive_sha256": "7f4162f514f007b0bf25a3ccfed3f1705bc2ec311888a90232729eec4f57a4f4",
+          "member": "_sounddevice_data/portaudio-binaries/libportaudio32bit.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/sounddevice-0.5.6/LICENSE": "b6eea21bbafbaf7a2177e492f1be6b5efc6f4e708b1980773de51cdaa52f8211",
+          "upstream/PortAudio/LICENSE.txt": "ec52a1952d701f94e5135719a47376da4ee0b4a0201f1cafb49f61db6480ac3d"
+        }
+      }
+    },
+    {
+      "name": "_sounddevice_data/portaudio-binaries/libportaudio64bit.dll",
+      "sha256": "ec080194f01e4095c7fb43dbd7ed05af922c5b34295056a9ff56782741d65481",
+      "status": "documented_reference",
+      "reference": {
+        "name": "_sounddevice_data/portaudio-binaries/libportaudio64bit.dll",
+        "sha256": "ec080194f01e4095c7fb43dbd7ed05af922c5b34295056a9ff56782741d65481",
+        "component": "sounddevice-0.5.6",
+        "documents": [
+          "upstream/sounddevice-0.5.6/LICENSE",
+          "upstream/PortAudio/LICENSE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/8d/3e/cbc593c31a5f0d817b3fe97e64aa8461bd0f55cb07b67ce1b776296ae336/sounddevice-0.5.6-py3-none-win_amd64.whl -> _sounddevice_data/portaudio-binaries/libportaudio64bit.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/8d/3e/cbc593c31a5f0d817b3fe97e64aa8461bd0f55cb07b67ce1b776296ae336/sounddevice-0.5.6-py3-none-win_amd64.whl",
+          "archive_sha256": "7f4162f514f007b0bf25a3ccfed3f1705bc2ec311888a90232729eec4f57a4f4",
+          "member": "_sounddevice_data/portaudio-binaries/libportaudio64bit.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/sounddevice-0.5.6/LICENSE": "b6eea21bbafbaf7a2177e492f1be6b5efc6f4e708b1980773de51cdaa52f8211",
+          "upstream/PortAudio/LICENSE.txt": "ec52a1952d701f94e5135719a47376da4ee0b4a0201f1cafb49f61db6480ac3d"
+        }
+      }
+    },
+    {
+      "name": "_sounddevice_data/portaudio-binaries/libportaudioarm64.dll",
+      "sha256": "e39e95e95c0cb262c70ca4e676e440cf34be5643fe5a31cdfe23e8ab6f1422cb",
+      "status": "documented_reference",
+      "reference": {
+        "name": "_sounddevice_data/portaudio-binaries/libportaudioarm64.dll",
+        "sha256": "e39e95e95c0cb262c70ca4e676e440cf34be5643fe5a31cdfe23e8ab6f1422cb",
+        "component": "sounddevice-0.5.6",
+        "documents": [
+          "upstream/sounddevice-0.5.6/LICENSE",
+          "upstream/PortAudio/LICENSE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/8d/3e/cbc593c31a5f0d817b3fe97e64aa8461bd0f55cb07b67ce1b776296ae336/sounddevice-0.5.6-py3-none-win_amd64.whl -> _sounddevice_data/portaudio-binaries/libportaudioarm64.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/8d/3e/cbc593c31a5f0d817b3fe97e64aa8461bd0f55cb07b67ce1b776296ae336/sounddevice-0.5.6-py3-none-win_amd64.whl",
+          "archive_sha256": "7f4162f514f007b0bf25a3ccfed3f1705bc2ec311888a90232729eec4f57a4f4",
+          "member": "_sounddevice_data/portaudio-binaries/libportaudioarm64.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/sounddevice-0.5.6/LICENSE": "b6eea21bbafbaf7a2177e492f1be6b5efc6f4e708b1980773de51cdaa52f8211",
+          "upstream/PortAudio/LICENSE.txt": "ec52a1952d701f94e5135719a47376da4ee0b4a0201f1cafb49f61db6480ac3d"
+        }
+      }
+    },
+    {
+      "name": "clr_loader/ffi/dlls/amd64/ClrLoader.dll",
+      "sha256": "07f62bcb1b70320f221ffb2cfc5ce6133815195f3e7cdb8d833222506188c2ac",
+      "status": "documented_reference",
+      "reference": {
+        "name": "clr_loader/ffi/dlls/amd64/ClrLoader.dll",
+        "sha256": "07f62bcb1b70320f221ffb2cfc5ce6133815195f3e7cdb8d833222506188c2ac",
+        "component": "clr_loader-0.3.1",
+        "documents": [
+          "upstream/clr_loader-0.3.1/LICENSE"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/5e/da/ec1a6e36624000b6df0dd61183c42342ee5814c073315e802cadaad04d2f/clr_loader-0.3.1-py3-none-any.whl -> clr_loader/ffi/dlls/amd64/ClrLoader.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/5e/da/ec1a6e36624000b6df0dd61183c42342ee5814c073315e802cadaad04d2f/clr_loader-0.3.1-py3-none-any.whl",
+          "archive_sha256": "cbad189de20d202a7d621956b0fc38049e13c9bf7ca2923441eff725cd121aa1",
+          "member": "clr_loader/ffi/dlls/amd64/ClrLoader.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/clr_loader-0.3.1/LICENSE": "dd6bdca10cdc3b24c6b0b6cef5fd611b7feb6917f127833283ddcdb310d3b453"
+        }
+      }
+    },
+    {
+      "name": "clr_loader/ffi/dlls/x86/ClrLoader.dll",
+      "sha256": "3128381d133f4ff746add70100cfef713ce2d78f2b12c02ec24ec453c5dfab0d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "clr_loader/ffi/dlls/x86/ClrLoader.dll",
+        "sha256": "3128381d133f4ff746add70100cfef713ce2d78f2b12c02ec24ec453c5dfab0d",
+        "component": "clr_loader-0.3.1",
+        "documents": [
+          "upstream/clr_loader-0.3.1/LICENSE"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/5e/da/ec1a6e36624000b6df0dd61183c42342ee5814c073315e802cadaad04d2f/clr_loader-0.3.1-py3-none-any.whl -> clr_loader/ffi/dlls/x86/ClrLoader.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/5e/da/ec1a6e36624000b6df0dd61183c42342ee5814c073315e802cadaad04d2f/clr_loader-0.3.1-py3-none-any.whl",
+          "archive_sha256": "cbad189de20d202a7d621956b0fc38049e13c9bf7ca2923441eff725cd121aa1",
+          "member": "clr_loader/ffi/dlls/x86/ClrLoader.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/clr_loader-0.3.1/LICENSE": "dd6bdca10cdc3b24c6b0b6cef5fd611b7feb6917f127833283ddcdb310d3b453"
+        }
+      }
+    },
+    {
+      "name": "libcrypto-3.dll",
+      "sha256": "09499e186cf0e434ffa17ad153aa9a66d6048c54a2c03b823e2a06c49d9affe4",
+      "status": "documented_reference",
+      "reference": {
+        "name": "libcrypto-3.dll",
+        "sha256": "09499e186cf0e434ffa17ad153aa9a66d6048c54a2c03b823e2a06c49d9affe4",
+        "component": "Python-3.13.14",
+        "documents": [
+          "upstream/Python-3.13.14/LICENSE.txt",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt"
+        ],
+        "basis": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip -> libcrypto-3.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip",
+          "archive_sha256": "90b4e5b9898b72d744650524bff92377c367f44bd5fbd09e3148656c080ad907",
+          "member": "libcrypto-3.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Python-3.13.14/LICENSE.txt": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        }
+      }
+    },
+    {
+      "name": "libffi-8.dll",
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
+      "status": "documented_reference",
+      "reference": {
+        "name": "libffi-8.dll",
+        "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
+        "component": "Python-3.13.14",
+        "documents": [
+          "upstream/Python-3.13.14/LICENSE.txt",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt"
+        ],
+        "basis": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip -> libffi-8.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip",
+          "archive_sha256": "90b4e5b9898b72d744650524bff92377c367f44bd5fbd09e3148656c080ad907",
+          "member": "libffi-8.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Python-3.13.14/LICENSE.txt": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        }
+      }
+    },
+    {
+      "name": "libssl-3.dll",
+      "sha256": "28c395290279fa4f4f54a57b85cd66d853895f925fefb8f6fdebc0d8b1cdd07c",
+      "status": "documented_reference",
+      "reference": {
+        "name": "libssl-3.dll",
+        "sha256": "28c395290279fa4f4f54a57b85cd66d853895f925fefb8f6fdebc0d8b1cdd07c",
+        "component": "Python-3.13.14",
+        "documents": [
+          "upstream/Python-3.13.14/LICENSE.txt",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt"
+        ],
+        "basis": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip -> libssl-3.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip",
+          "archive_sha256": "90b4e5b9898b72d744650524bff92377c367f44bd5fbd09e3148656c080ad907",
+          "member": "libssl-3.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Python-3.13.14/LICENSE.txt": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        }
+      }
+    },
+    {
+      "name": "llvmlite.libs/msvcp140-8f141b4454fa78db34bc1f28c571b4da.dll",
+      "sha256": "8f141b4454fa78db34bc1f28c571b4da0e00cd2c43f7ad0e282f313036826aae",
+      "status": "review_required",
+      "reference": {
+        "name": "llvmlite.libs/msvcp140-8f141b4454fa78db34bc1f28c571b4da.dll",
+        "sha256": "8f141b4454fa78db34bc1f28c571b4da0e00cd2c43f7ad0e282f313036826aae",
+        "component": "llvmlite-0.47.0",
+        "documents": [
+          "upstream/llvmlite-0.47.0/LICENSE",
+          "upstream/llvmlite-0.47.0/LICENSE.thirdparty",
+          "upstream/VisualCpp-14.51.36247/DISTRIBUTION-NOTE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/46/9f/4898b44e4042c60fafcb1162dfb7014f6f15b1ec19bf29cfea6bf26df90d/llvmlite-0.47.0-cp313-cp313-win_amd64.whl -> llvmlite.libs/msvcp140-8f141b4454fa78db34bc1f28c571b4da.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/46/9f/4898b44e4042c60fafcb1162dfb7014f6f15b1ec19bf29cfea6bf26df90d/llvmlite-0.47.0-cp313-cp313-win_amd64.whl",
+          "archive_sha256": "c2e9adf8698d813a9a5efb2d4370caf344dbc1e145019851fee6a6f319ba760e",
+          "member": "llvmlite.libs/msvcp140-8f141b4454fa78db34bc1f28c571b4da.dll"
+        },
+        "review_required": true,
+        "remaining_action": "Confirm an applicable Microsoft redistribution grant for this Visual C++ runtime. The wheel owner license alone does not grant Microsoft rights.",
+        "document_sha256": {
+          "upstream/llvmlite-0.47.0/LICENSE": "7d6aa93e52a7ae9a995ff6a40c0ea5628311cdf1bd8dcd29c8ce9181f4af3a81",
+          "upstream/llvmlite-0.47.0/LICENSE.thirdparty": "7b564c7af9ab446d245ba66adc8cda2f61d1d162f842899557499e80b715993a",
+          "upstream/VisualCpp-14.51.36247/DISTRIBUTION-NOTE.txt": "7a5241e217b5356db94b4ad7809b8c5c9987745aec8bb645eab0affe8e5d4748"
+        }
+      },
+      "reason": "Confirm an applicable Microsoft redistribution grant for this Visual C++ runtime. The wheel owner license alone does not grant Microsoft rights."
+    },
+    {
+      "name": "llvmlite/binding/llvmlite.dll",
+      "sha256": "6c76a389a843a601959dad012691da6a199d91092c5dac637286282092e6936d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "llvmlite/binding/llvmlite.dll",
+        "sha256": "6c76a389a843a601959dad012691da6a199d91092c5dac637286282092e6936d",
+        "component": "llvmlite-0.47.0",
+        "documents": [
+          "upstream/llvmlite-0.47.0/LICENSE",
+          "upstream/llvmlite-0.47.0/LICENSE.thirdparty"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/46/9f/4898b44e4042c60fafcb1162dfb7014f6f15b1ec19bf29cfea6bf26df90d/llvmlite-0.47.0-cp313-cp313-win_amd64.whl -> llvmlite/binding/llvmlite.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/46/9f/4898b44e4042c60fafcb1162dfb7014f6f15b1ec19bf29cfea6bf26df90d/llvmlite-0.47.0-cp313-cp313-win_amd64.whl",
+          "archive_sha256": "c2e9adf8698d813a9a5efb2d4370caf344dbc1e145019851fee6a6f319ba760e",
+          "member": "llvmlite/binding/llvmlite.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/llvmlite-0.47.0/LICENSE": "7d6aa93e52a7ae9a995ff6a40c0ea5628311cdf1bd8dcd29c8ce9181f4af3a81",
+          "upstream/llvmlite-0.47.0/LICENSE.thirdparty": "7b564c7af9ab446d245ba66adc8cda2f61d1d162f842899557499e80b715993a"
+        }
+      }
+    },
+    {
+      "name": "numpy.libs/libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "sha256": "9e3e5a4229c1ca39f10dc82bba9e2b2bf48037790932566f37aff1a7ccf3588f",
+      "status": "documented_reference",
+      "reference": {
+        "name": "numpy.libs/libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+        "sha256": "9e3e5a4229c1ca39f10dc82bba9e2b2bf48037790932566f37aff1a7ccf3588f",
+        "component": "numpy-2.3.5",
+        "documents": [
+          "upstream/numpy-2.3.5/LICENSE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/0c/88/e2eaa6cffb115b85ed7c7c87775cb8bcf0816816bc98ca8dbfa2ee33fe6e/numpy-2.3.5-cp313-cp313-win_amd64.whl -> numpy.libs/libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/0c/88/e2eaa6cffb115b85ed7c7c87775cb8bcf0816816bc98ca8dbfa2ee33fe6e/numpy-2.3.5-cp313-cp313-win_amd64.whl",
+          "archive_sha256": "00dc4e846108a382c5869e77c6ed514394bdeb3403461d25a829711041217d5b",
+          "member": "numpy.libs/libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/numpy-2.3.5/LICENSE.txt": "596b953e1dcbe829b32ae444387efa15003fc6abdeca8a2179f364a6364c286e"
+        }
+      }
+    },
+    {
+      "name": "numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde",
+      "status": "review_required",
+      "reference": {
+        "name": "numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+        "sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde",
+        "component": "numpy-2.3.5",
+        "documents": [
+          "upstream/numpy-2.3.5/LICENSE.txt",
+          "upstream/VisualCpp-14.51.36247/DISTRIBUTION-NOTE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/0c/88/e2eaa6cffb115b85ed7c7c87775cb8bcf0816816bc98ca8dbfa2ee33fe6e/numpy-2.3.5-cp313-cp313-win_amd64.whl -> numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/0c/88/e2eaa6cffb115b85ed7c7c87775cb8bcf0816816bc98ca8dbfa2ee33fe6e/numpy-2.3.5-cp313-cp313-win_amd64.whl",
+          "archive_sha256": "00dc4e846108a382c5869e77c6ed514394bdeb3403461d25a829711041217d5b",
+          "member": "numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll"
+        },
+        "review_required": true,
+        "remaining_action": "Confirm an applicable Microsoft redistribution grant for this Visual C++ runtime. The wheel owner license alone does not grant Microsoft rights.",
+        "document_sha256": {
+          "upstream/numpy-2.3.5/LICENSE.txt": "596b953e1dcbe829b32ae444387efa15003fc6abdeca8a2179f364a6364c286e",
+          "upstream/VisualCpp-14.51.36247/DISTRIBUTION-NOTE.txt": "7a5241e217b5356db94b4ad7809b8c5c9987745aec8bb645eab0affe8e5d4748"
+        }
+      },
+      "reason": "Confirm an applicable Microsoft redistribution grant for this Visual C++ runtime. The wheel owner license alone does not grant Microsoft rights."
+    },
+    {
+      "name": "python313.dll",
+      "sha256": "3a7a6170ea840bf2a2a76d05b687b946fcdc8d0cfedfe159012b38f1e8959a7c",
+      "status": "documented_reference",
+      "reference": {
+        "name": "python313.dll",
+        "sha256": "3a7a6170ea840bf2a2a76d05b687b946fcdc8d0cfedfe159012b38f1e8959a7c",
+        "component": "Python-3.13.14",
+        "documents": [
+          "upstream/Python-3.13.14/LICENSE.txt",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt"
+        ],
+        "basis": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip -> python313.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip",
+          "archive_sha256": "90b4e5b9898b72d744650524bff92377c367f44bd5fbd09e3148656c080ad907",
+          "member": "python313.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Python-3.13.14/LICENSE.txt": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120",
+          "upstream/OpenSSL-3.0.21/LICENSE.txt": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/Microsoft.Win32.Primitives.dll",
+      "sha256": "5eaa2e82a26b0b302280d08f54dc9da25165dd0e286be52440a271285d63f695",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/Microsoft.Win32.Primitives.dll",
+        "sha256": "5eaa2e82a26b0b302280d08f54dc9da25165dd0e286be52440a271285d63f695",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/Microsoft.Win32.Primitives.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/Microsoft.Win32.Primitives.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/Python.Runtime.dll",
+      "sha256": "648e6b415be8f45018af71f377aa3a97772799b353ac3a5e8612a99313de4907",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/Python.Runtime.dll",
+        "sha256": "648e6b415be8f45018af71f377aa3a97772799b353ac3a5e8612a99313de4907",
+        "component": "pythonnet-3.1.0",
+        "documents": [
+          "upstream/pythonnet-3.1.0/LICENSE"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/ac/4b/52414f442624d2589f5374a48c08d5ae94f24bea67fc13a20a752884e5b7/pythonnet-3.1.0-cp310.cp311.cp312.cp313.cp314-none-any.whl -> pythonnet/runtime/Python.Runtime.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/ac/4b/52414f442624d2589f5374a48c08d5ae94f24bea67fc13a20a752884e5b7/pythonnet-3.1.0-cp310.cp311.cp312.cp313.cp314-none-any.whl",
+          "archive_sha256": "698dd88edc198819ad63b624a6ebe76208c7b46e4fe13626f65e484f0358d6ba",
+          "member": "pythonnet/runtime/Python.Runtime.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/pythonnet-3.1.0/LICENSE": "e1dc3a6ff017a6800dc27a7220500f512b95fbcd996d38ebbbff85c693245369"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.AppContext.dll",
+      "sha256": "9dc115ac4aadd6a94d87c7a8a3f61803cc25a3d73501d7534867df6b0d8a0d39",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.AppContext.dll",
+        "sha256": "9dc115ac4aadd6a94d87c7a8a3f61803cc25a3d73501d7534867df6b0d8a0d39",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.AppContext.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.AppContext.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Collections.Concurrent.dll",
+      "sha256": "cc62f3b867d50083c2932061f20662c698d2e1a741c4d2f9df1fd2d435e3ef3c",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Collections.Concurrent.dll",
+        "sha256": "cc62f3b867d50083c2932061f20662c698d2e1a741c4d2f9df1fd2d435e3ef3c",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Collections.Concurrent.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Collections.Concurrent.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Collections.NonGeneric.dll",
+      "sha256": "529943c0cdf24f57e94bf03fac5f40b94a638625027a02df79e1e8cb5d9bc696",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Collections.NonGeneric.dll",
+        "sha256": "529943c0cdf24f57e94bf03fac5f40b94a638625027a02df79e1e8cb5d9bc696",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Collections.NonGeneric.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Collections.NonGeneric.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Collections.Specialized.dll",
+      "sha256": "938da38561da54793944e95e94b6e11cf83aacd667487297d428fbce1c06dc9c",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Collections.Specialized.dll",
+        "sha256": "938da38561da54793944e95e94b6e11cf83aacd667487297d428fbce1c06dc9c",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Collections.Specialized.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Collections.Specialized.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Collections.dll",
+      "sha256": "c2250e9e51b44d8ab8c5b892592766925f6580ee00b95026621d0afb037c2707",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Collections.dll",
+        "sha256": "c2250e9e51b44d8ab8c5b892592766925f6580ee00b95026621d0afb037c2707",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Collections.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Collections.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.ComponentModel.EventBasedAsync.dll",
+      "sha256": "22108e32e0b6e42f5f52a4cb17b9b6fa3dfd547ecd9eef9c67226dbec54d23e5",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.ComponentModel.EventBasedAsync.dll",
+        "sha256": "22108e32e0b6e42f5f52a4cb17b9b6fa3dfd547ecd9eef9c67226dbec54d23e5",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ComponentModel.EventBasedAsync.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ComponentModel.EventBasedAsync.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.ComponentModel.Primitives.dll",
+      "sha256": "bfcd867f71c887429dfe008d7ec5d1853d15b3932d4ce8991694293477b5be37",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.ComponentModel.Primitives.dll",
+        "sha256": "bfcd867f71c887429dfe008d7ec5d1853d15b3932d4ce8991694293477b5be37",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ComponentModel.Primitives.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ComponentModel.Primitives.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.ComponentModel.TypeConverter.dll",
+      "sha256": "0dbb92ecd5dfa7fc258bc6deed4cecf1b37f895457fd06976496926abdb317bb",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.ComponentModel.TypeConverter.dll",
+        "sha256": "0dbb92ecd5dfa7fc258bc6deed4cecf1b37f895457fd06976496926abdb317bb",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ComponentModel.TypeConverter.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ComponentModel.TypeConverter.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.ComponentModel.dll",
+      "sha256": "5e61d755616cb10524f5f31e9b70c65a7fff8e30e25ce711ac8b354d657ab479",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.ComponentModel.dll",
+        "sha256": "5e61d755616cb10524f5f31e9b70c65a7fff8e30e25ce711ac8b354d657ab479",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ComponentModel.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ComponentModel.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Console.dll",
+      "sha256": "b537313413f80105f143cc144feeae2ac93f44747727de309a71d57d2650034a",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Console.dll",
+        "sha256": "b537313413f80105f143cc144feeae2ac93f44747727de309a71d57d2650034a",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Console.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Console.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Data.Common.dll",
+      "sha256": "1c7bff6f16bb618648e699b723aeafe511515cd6aad699c25faae2a507e22811",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Data.Common.dll",
+        "sha256": "1c7bff6f16bb618648e699b723aeafe511515cd6aad699c25faae2a507e22811",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Data.Common.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Data.Common.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.Contracts.dll",
+      "sha256": "9c4ae61e0e8365762efe3d34c5595029f2c12e0079e6070720e2cef0882c84e5",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.Contracts.dll",
+        "sha256": "9c4ae61e0e8365762efe3d34c5595029f2c12e0079e6070720e2cef0882c84e5",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Contracts.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Contracts.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.Debug.dll",
+      "sha256": "55a30d92d163cf1807bea6dc13b4c13e70aebbb034dc77eaef4f4394730dcd8e",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.Debug.dll",
+        "sha256": "55a30d92d163cf1807bea6dc13b4c13e70aebbb034dc77eaef4f4394730dcd8e",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Debug.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Debug.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.FileVersionInfo.dll",
+      "sha256": "7c25a74772e135257235640a0264ddc05235e14f3627896cfe735e9955155f83",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.FileVersionInfo.dll",
+        "sha256": "7c25a74772e135257235640a0264ddc05235e14f3627896cfe735e9955155f83",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.FileVersionInfo.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.FileVersionInfo.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.Process.dll",
+      "sha256": "28b165cddb82a2507114394ae398995ef8a50c549214f8678aa66054f6927754",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.Process.dll",
+        "sha256": "28b165cddb82a2507114394ae398995ef8a50c549214f8678aa66054f6927754",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Process.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Process.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.StackTrace.dll",
+      "sha256": "cae99f910874288afbf810968d13b79d755cd4b2006609ec036ea4934181cba5",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.StackTrace.dll",
+        "sha256": "cae99f910874288afbf810968d13b79d755cd4b2006609ec036ea4934181cba5",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.StackTrace.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.StackTrace.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.TextWriterTraceListener.dll",
+      "sha256": "63eab38ee9f4dcd686c8e6a4f01e1e2a9bb91e52b20ab4dde0c28061e9261860",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.TextWriterTraceListener.dll",
+        "sha256": "63eab38ee9f4dcd686c8e6a4f01e1e2a9bb91e52b20ab4dde0c28061e9261860",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.TextWriterTraceListener.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.TextWriterTraceListener.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.Tools.dll",
+      "sha256": "260c6250ef9b57dca99b4cecc533f9a34857b5a32b5351202f776163841200aa",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.Tools.dll",
+        "sha256": "260c6250ef9b57dca99b4cecc533f9a34857b5a32b5351202f776163841200aa",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Tools.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Tools.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.TraceSource.dll",
+      "sha256": "c81a57d0634c462a6cf49844059e9b170f650ccdf0789519ffd4ae7d28e2718d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.TraceSource.dll",
+        "sha256": "c81a57d0634c462a6cf49844059e9b170f650ccdf0789519ffd4ae7d28e2718d",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.TraceSource.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.TraceSource.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Diagnostics.Tracing.dll",
+      "sha256": "b84b93be455cc7d14ec0c88ce08dafac7b6aac2e549c969e7126eb48c31f8b1c",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Diagnostics.Tracing.dll",
+        "sha256": "b84b93be455cc7d14ec0c88ce08dafac7b6aac2e549c969e7126eb48c31f8b1c",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Tracing.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Diagnostics.Tracing.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Drawing.Primitives.dll",
+      "sha256": "2805a18724a24034ad6acb315dac516e479cecc5f3753204052657e560932d5d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Drawing.Primitives.dll",
+        "sha256": "2805a18724a24034ad6acb315dac516e479cecc5f3753204052657e560932d5d",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Drawing.Primitives.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Drawing.Primitives.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Dynamic.Runtime.dll",
+      "sha256": "f600acc811720183c639cebe5618baf9c8135b85b9cbdc0758bc9b2dcc6dd7a9",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Dynamic.Runtime.dll",
+        "sha256": "f600acc811720183c639cebe5618baf9c8135b85b9cbdc0758bc9b2dcc6dd7a9",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Dynamic.Runtime.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Dynamic.Runtime.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Globalization.Calendars.dll",
+      "sha256": "b56ffb65b842daae13f3020b0b04646db92f89801d2a2f89087d145a996d43f7",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Globalization.Calendars.dll",
+        "sha256": "b56ffb65b842daae13f3020b0b04646db92f89801d2a2f89087d145a996d43f7",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Globalization.Calendars.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Globalization.Calendars.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Globalization.Extensions.dll",
+      "sha256": "c7e91bd148ed22ee1ff8ebd3e58b199a30af90aa37499bcf8da34409672f2ed9",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Globalization.Extensions.dll",
+        "sha256": "c7e91bd148ed22ee1ff8ebd3e58b199a30af90aa37499bcf8da34409672f2ed9",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Globalization.Extensions.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Globalization.Extensions.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Globalization.dll",
+      "sha256": "56bd0c02c734abf4d7fd1ef2e8b6a9e4bf5e4bab4e606cd1023d63b02852fa61",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Globalization.dll",
+        "sha256": "56bd0c02c734abf4d7fd1ef2e8b6a9e4bf5e4bab4e606cd1023d63b02852fa61",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Globalization.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Globalization.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.Compression.ZipFile.dll",
+      "sha256": "7720ee13405ea8a3c204703a181e67dc6d66835e9df263c09d04d8b48b41eb26",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.Compression.ZipFile.dll",
+        "sha256": "7720ee13405ea8a3c204703a181e67dc6d66835e9df263c09d04d8b48b41eb26",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.Compression.ZipFile.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.Compression.ZipFile.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.Compression.dll",
+      "sha256": "da18d61bb6b7d35c56cb4f392fae0844cca73f72a043a08994beccb531ff3b77",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.Compression.dll",
+        "sha256": "da18d61bb6b7d35c56cb4f392fae0844cca73f72a043a08994beccb531ff3b77",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.Compression.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.Compression.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.FileSystem.DriveInfo.dll",
+      "sha256": "984575c44cab17d46587af6cc8c22c409b79bec280fd771e6af93a0a0c20e5b0",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.FileSystem.DriveInfo.dll",
+        "sha256": "984575c44cab17d46587af6cc8c22c409b79bec280fd771e6af93a0a0c20e5b0",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.FileSystem.DriveInfo.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.FileSystem.DriveInfo.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.FileSystem.Primitives.dll",
+      "sha256": "5c84dd40d67c0e59906511d2b09da8e28c454b5979eb5fde74213f9d4bdbc564",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.FileSystem.Primitives.dll",
+        "sha256": "5c84dd40d67c0e59906511d2b09da8e28c454b5979eb5fde74213f9d4bdbc564",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.FileSystem.Primitives.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.FileSystem.Primitives.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.FileSystem.Watcher.dll",
+      "sha256": "c9e2562f1a1b86acdb6957cf916aced9c4f8b71ebb16dfa0050252146205ad37",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.FileSystem.Watcher.dll",
+        "sha256": "c9e2562f1a1b86acdb6957cf916aced9c4f8b71ebb16dfa0050252146205ad37",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.FileSystem.Watcher.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.FileSystem.Watcher.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.FileSystem.dll",
+      "sha256": "9a4595dbb128e2d8f373b3ac45478e7131f4d181b50ec821ec8cb88bd46bd5b8",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.FileSystem.dll",
+        "sha256": "9a4595dbb128e2d8f373b3ac45478e7131f4d181b50ec821ec8cb88bd46bd5b8",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.FileSystem.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.FileSystem.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.IsolatedStorage.dll",
+      "sha256": "0e80a2e256d16e487bc847d1857ed7cd088f176254ba2a385d675338b836b0fc",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.IsolatedStorage.dll",
+        "sha256": "0e80a2e256d16e487bc847d1857ed7cd088f176254ba2a385d675338b836b0fc",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.IsolatedStorage.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.IsolatedStorage.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.MemoryMappedFiles.dll",
+      "sha256": "81b6527ac2d18782ac24ae463c11dd1d70ab1bc89f626b7347a592229b371a1d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.MemoryMappedFiles.dll",
+        "sha256": "81b6527ac2d18782ac24ae463c11dd1d70ab1bc89f626b7347a592229b371a1d",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.MemoryMappedFiles.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.MemoryMappedFiles.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.Pipes.dll",
+      "sha256": "80a229b2917fc3a5d941ff9745a6be0065028afdf9509300410d2721c71f1198",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.Pipes.dll",
+        "sha256": "80a229b2917fc3a5d941ff9745a6be0065028afdf9509300410d2721c71f1198",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.Pipes.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.Pipes.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.UnmanagedMemoryStream.dll",
+      "sha256": "86f1f12e47f260985b08bb966598123578eb5e48bef9bb086f04e16e9d53bb32",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.UnmanagedMemoryStream.dll",
+        "sha256": "86f1f12e47f260985b08bb966598123578eb5e48bef9bb086f04e16e9d53bb32",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.UnmanagedMemoryStream.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.UnmanagedMemoryStream.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.IO.dll",
+      "sha256": "c191a43029edd4eb8eee003356f1fe79aa45071c25433a7a3589590e9089eed9",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.IO.dll",
+        "sha256": "c191a43029edd4eb8eee003356f1fe79aa45071c25433a7a3589590e9089eed9",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.IO.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Linq.Expressions.dll",
+      "sha256": "bf97f67165231c2a42b95f11d80337b082e2b2be54351da44c8a10c06194b369",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Linq.Expressions.dll",
+        "sha256": "bf97f67165231c2a42b95f11d80337b082e2b2be54351da44c8a10c06194b369",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Linq.Expressions.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Linq.Expressions.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Linq.Parallel.dll",
+      "sha256": "30a49d16436e3a05569c99a0c2d21755c2fa323c5b925f9f21c10287cc97d9c9",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Linq.Parallel.dll",
+        "sha256": "30a49d16436e3a05569c99a0c2d21755c2fa323c5b925f9f21c10287cc97d9c9",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Linq.Parallel.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Linq.Parallel.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Linq.Queryable.dll",
+      "sha256": "719ac73bb261e0a13574f5a198126ccf40352264958defb555280d005134c704",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Linq.Queryable.dll",
+        "sha256": "719ac73bb261e0a13574f5a198126ccf40352264958defb555280d005134c704",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Linq.Queryable.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Linq.Queryable.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Linq.dll",
+      "sha256": "349c7fbe9ae2b78c2f90239bddfcea5b16a0faac1fe83553a816c50c3e9089b1",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Linq.dll",
+        "sha256": "349c7fbe9ae2b78c2f90239bddfcea5b16a0faac1fe83553a816c50c3e9089b1",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Linq.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Linq.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.Http.dll",
+      "sha256": "b5d20736f84f335ef4c918a5ba41c3a0d7189397c71b166ccc6c342427a94ece",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.Http.dll",
+        "sha256": "b5d20736f84f335ef4c918a5ba41c3a0d7189397c71b166ccc6c342427a94ece",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Http.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Http.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.NameResolution.dll",
+      "sha256": "222bd77c5692c2961e8c3638f6511d6f7cbeb9e0977e2d5c3bca6739a5311f37",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.NameResolution.dll",
+        "sha256": "222bd77c5692c2961e8c3638f6511d6f7cbeb9e0977e2d5c3bca6739a5311f37",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.NameResolution.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.NameResolution.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.NetworkInformation.dll",
+      "sha256": "2e2d28a0802d8c8c08c0d422f48733ad8bf1dfae75f5682a4a3df8898e7e819f",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.NetworkInformation.dll",
+        "sha256": "2e2d28a0802d8c8c08c0d422f48733ad8bf1dfae75f5682a4a3df8898e7e819f",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.NetworkInformation.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.NetworkInformation.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.Ping.dll",
+      "sha256": "4d97e8481b9a27042bb903245625735d82ff627c66797de619303c1e705d0d6a",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.Ping.dll",
+        "sha256": "4d97e8481b9a27042bb903245625735d82ff627c66797de619303c1e705d0d6a",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Ping.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Ping.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.Primitives.dll",
+      "sha256": "9a8ba725f8e953c933285065228a9409036f9137d03016b127ccea8a19452466",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.Primitives.dll",
+        "sha256": "9a8ba725f8e953c933285065228a9409036f9137d03016b127ccea8a19452466",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Primitives.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Primitives.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.Requests.dll",
+      "sha256": "f2e74a3ec2dc753c9a48fa9a677775f949eb1e02fc1bb8bf38c39e8d2ab147eb",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.Requests.dll",
+        "sha256": "f2e74a3ec2dc753c9a48fa9a677775f949eb1e02fc1bb8bf38c39e8d2ab147eb",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Requests.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Requests.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.Security.dll",
+      "sha256": "d0d90152136a0acf340fb345098f2e5c718bb13f3b5a809d7be4d9948b8574d4",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.Security.dll",
+        "sha256": "d0d90152136a0acf340fb345098f2e5c718bb13f3b5a809d7be4d9948b8574d4",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Security.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Security.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.Sockets.dll",
+      "sha256": "694f4c61b6bae0aefac07a1e861c12c03cb6002f30091e4c8b05bb9c8ccf0d3d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.Sockets.dll",
+        "sha256": "694f4c61b6bae0aefac07a1e861c12c03cb6002f30091e4c8b05bb9c8ccf0d3d",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Sockets.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.Sockets.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.WebHeaderCollection.dll",
+      "sha256": "69b48ff8e6f40b84cdddb95bcdbb34e1184a2e29cb4ccc0fc9f1a2493648ee37",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.WebHeaderCollection.dll",
+        "sha256": "69b48ff8e6f40b84cdddb95bcdbb34e1184a2e29cb4ccc0fc9f1a2493648ee37",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.WebHeaderCollection.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.WebHeaderCollection.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.WebSockets.Client.dll",
+      "sha256": "19766a20b62b038abc3e863f2d6e7b55fabee4d9cbcad3eb1d7bd3ebfe8d023a",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.WebSockets.Client.dll",
+        "sha256": "19766a20b62b038abc3e863f2d6e7b55fabee4d9cbcad3eb1d7bd3ebfe8d023a",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.WebSockets.Client.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.WebSockets.Client.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Net.WebSockets.dll",
+      "sha256": "99920ce34a01a0c07efd86d6e134bb401993515d001b7567a4116ad222993a63",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Net.WebSockets.dll",
+        "sha256": "99920ce34a01a0c07efd86d6e134bb401993515d001b7567a4116ad222993a63",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.WebSockets.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Net.WebSockets.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.ObjectModel.dll",
+      "sha256": "870ee1141cb61abfce44507e39bfdd734f2335e34d89ecfffb13838195a6b936",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.ObjectModel.dll",
+        "sha256": "870ee1141cb61abfce44507e39bfdd734f2335e34d89ecfffb13838195a6b936",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ObjectModel.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ObjectModel.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Reflection.Extensions.dll",
+      "sha256": "3d2551d6458b84566025fddfe5dad479cab5785428efd6814860d36ad1811c9a",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Reflection.Extensions.dll",
+        "sha256": "3d2551d6458b84566025fddfe5dad479cab5785428efd6814860d36ad1811c9a",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Reflection.Extensions.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Reflection.Extensions.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Reflection.Primitives.dll",
+      "sha256": "0383dc02fdf0b5d4612d8caaad13d594cac1609c8240b73dfd6ea5803f5e17ea",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Reflection.Primitives.dll",
+        "sha256": "0383dc02fdf0b5d4612d8caaad13d594cac1609c8240b73dfd6ea5803f5e17ea",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Reflection.Primitives.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Reflection.Primitives.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Reflection.dll",
+      "sha256": "63aaf632ee7f3bc852c4d71c742cf1d26f18f784f6c89113e056b2599ba8f514",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Reflection.dll",
+        "sha256": "63aaf632ee7f3bc852c4d71c742cf1d26f18f784f6c89113e056b2599ba8f514",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Reflection.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Reflection.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Resources.Reader.dll",
+      "sha256": "e3036362506d96c9c00ed6393a2afcacd9f2e71cd2a35c1d638a61e85d2fb040",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Resources.Reader.dll",
+        "sha256": "e3036362506d96c9c00ed6393a2afcacd9f2e71cd2a35c1d638a61e85d2fb040",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Resources.Reader.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Resources.Reader.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Resources.ResourceManager.dll",
+      "sha256": "62dce4679e33c079e11f41b096bc803b30b1d963a1ea79efa84187cebbc06afe",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Resources.ResourceManager.dll",
+        "sha256": "62dce4679e33c079e11f41b096bc803b30b1d963a1ea79efa84187cebbc06afe",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Resources.ResourceManager.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Resources.ResourceManager.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Resources.Writer.dll",
+      "sha256": "daaabd07f1b94be19d72913360286e469f454886850afcc603506eaab03150e4",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Resources.Writer.dll",
+        "sha256": "daaabd07f1b94be19d72913360286e469f454886850afcc603506eaab03150e4",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Resources.Writer.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Resources.Writer.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.CompilerServices.VisualC.dll",
+      "sha256": "18a610b8bad43cf784cde4d4902a238f2281c2a677daae790cab55f6da915979",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.CompilerServices.VisualC.dll",
+        "sha256": "18a610b8bad43cf784cde4d4902a238f2281c2a677daae790cab55f6da915979",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.CompilerServices.VisualC.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.CompilerServices.VisualC.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.Extensions.dll",
+      "sha256": "f9feb277f86241f55425182a26decf50a210675d4f040ec542af3fb3dd287de6",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.Extensions.dll",
+        "sha256": "f9feb277f86241f55425182a26decf50a210675d4f040ec542af3fb3dd287de6",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Extensions.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Extensions.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.Handles.dll",
+      "sha256": "7a81d2a001b543b2a55c9affc845a5df7edab1fd308c6979bbd982b1b826b57c",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.Handles.dll",
+        "sha256": "7a81d2a001b543b2a55c9affc845a5df7edab1fd308c6979bbd982b1b826b57c",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Handles.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Handles.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "sha256": "76432f414458e93b54ceb02fc348e652a84744108102f3a83792d8a804040eb8",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "sha256": "76432f414458e93b54ceb02fc348e652a84744108102f3a83792d8a804040eb8",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.InteropServices.RuntimeInformation.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.InteropServices.dll",
+      "sha256": "383a1f9dac655c6805c24d4a03bc5fbeb9abd1536de5510f5756259eefcb4871",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.InteropServices.dll",
+        "sha256": "383a1f9dac655c6805c24d4a03bc5fbeb9abd1536de5510f5756259eefcb4871",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.InteropServices.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.InteropServices.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.Numerics.dll",
+      "sha256": "16e7efd6c19b2e3e516ae1bc7b3175d0e22f1ad357701f229e353da348eee182",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.Numerics.dll",
+        "sha256": "16e7efd6c19b2e3e516ae1bc7b3175d0e22f1ad357701f229e353da348eee182",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Numerics.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Numerics.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.Serialization.Formatters.dll",
+      "sha256": "c343f7bf08a4c97a90ba607a492c721533333173fa63f65f6e5de9ceee65fc16",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.Serialization.Formatters.dll",
+        "sha256": "c343f7bf08a4c97a90ba607a492c721533333173fa63f65f6e5de9ceee65fc16",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Serialization.Formatters.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Serialization.Formatters.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.Serialization.Json.dll",
+      "sha256": "e8d531f0aaa674f794b7f43ec76e4e32ad93f3c136020cf4b6e3433832f9c0df",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.Serialization.Json.dll",
+        "sha256": "e8d531f0aaa674f794b7f43ec76e4e32ad93f3c136020cf4b6e3433832f9c0df",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Serialization.Json.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Serialization.Json.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.Serialization.Primitives.dll",
+      "sha256": "575e26a455892f1fd77b730e6928f70b760e76094afe5bcb677d854daf869ac5",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.Serialization.Primitives.dll",
+        "sha256": "575e26a455892f1fd77b730e6928f70b760e76094afe5bcb677d854daf869ac5",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Serialization.Primitives.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Serialization.Primitives.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.Serialization.Xml.dll",
+      "sha256": "557858e44a51a74646ad07a85cba56af1da13ad26ac2f74ee5d8c3e8a171c221",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.Serialization.Xml.dll",
+        "sha256": "557858e44a51a74646ad07a85cba56af1da13ad26ac2f74ee5d8c3e8a171c221",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Serialization.Xml.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.Serialization.Xml.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Runtime.dll",
+      "sha256": "50ad612d4cf6113de26b2870da099c4817f59e64a2da98f05803b4a2e2304919",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Runtime.dll",
+        "sha256": "50ad612d4cf6113de26b2870da099c4817f59e64a2da98f05803b4a2e2304919",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Runtime.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Security.Claims.dll",
+      "sha256": "8270d1248950ee8aee5c2ac2e321df07e65c7a94004ae03c857deacd231a5542",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Security.Claims.dll",
+        "sha256": "8270d1248950ee8aee5c2ac2e321df07e65c7a94004ae03c857deacd231a5542",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Claims.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Claims.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Security.Cryptography.Algorithms.dll",
+      "sha256": "967dddbfe7f1ceb933b5875d65c59cdb835bb063f287a361e8b35dd814a9b14d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Security.Cryptography.Algorithms.dll",
+        "sha256": "967dddbfe7f1ceb933b5875d65c59cdb835bb063f287a361e8b35dd814a9b14d",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.Algorithms.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.Algorithms.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Security.Cryptography.Csp.dll",
+      "sha256": "566775f5502c3c1fa70acade145293df5d02c1a9f031820d429605e9b4584b44",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Security.Cryptography.Csp.dll",
+        "sha256": "566775f5502c3c1fa70acade145293df5d02c1a9f031820d429605e9b4584b44",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.Csp.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.Csp.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Security.Cryptography.Encoding.dll",
+      "sha256": "1f5c1abe1b2720680170388569354d8cda9d558b53aff7caf175ce0f7e3733e5",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Security.Cryptography.Encoding.dll",
+        "sha256": "1f5c1abe1b2720680170388569354d8cda9d558b53aff7caf175ce0f7e3733e5",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.Encoding.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.Encoding.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Security.Cryptography.Primitives.dll",
+      "sha256": "b755d0b55a465d07c9dd3fc11822487d1e649b684aef91a4ce9b935b416a01b9",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Security.Cryptography.Primitives.dll",
+        "sha256": "b755d0b55a465d07c9dd3fc11822487d1e649b684aef91a4ce9b935b416a01b9",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.Primitives.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.Primitives.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Security.Cryptography.X509Certificates.dll",
+      "sha256": "3c8630acb43c12a6a317227ff2922056ecd991fe945464fdf7ea81f1293a479f",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Security.Cryptography.X509Certificates.dll",
+        "sha256": "3c8630acb43c12a6a317227ff2922056ecd991fe945464fdf7ea81f1293a479f",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.X509Certificates.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Cryptography.X509Certificates.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Security.Principal.dll",
+      "sha256": "02416bc542be82002b8b81adbbbcdcc8d098104020d09b571dc674b5bc19a177",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Security.Principal.dll",
+        "sha256": "02416bc542be82002b8b81adbbbcdcc8d098104020d09b571dc674b5bc19a177",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Principal.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.Principal.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Security.SecureString.dll",
+      "sha256": "18032d190d0d599823e59c8dd8b588909bef8888b8bf304723a138b61f1b911f",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Security.SecureString.dll",
+        "sha256": "18032d190d0d599823e59c8dd8b588909bef8888b8bf304723a138b61f1b911f",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.SecureString.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Security.SecureString.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Text.Encoding.Extensions.dll",
+      "sha256": "cbe29672cd2b6a0ea97b55f3844fbede3e591996f39c3aa1f829f2fa50551fa9",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Text.Encoding.Extensions.dll",
+        "sha256": "cbe29672cd2b6a0ea97b55f3844fbede3e591996f39c3aa1f829f2fa50551fa9",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Text.Encoding.Extensions.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Text.Encoding.Extensions.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Text.Encoding.dll",
+      "sha256": "0ab1f7f87b7c2afca57d394e4f4e262c82ba3209cb0a750cd66401fb33f21eca",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Text.Encoding.dll",
+        "sha256": "0ab1f7f87b7c2afca57d394e4f4e262c82ba3209cb0a750cd66401fb33f21eca",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Text.Encoding.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Text.Encoding.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Text.RegularExpressions.dll",
+      "sha256": "c98a52bd017df01aea7b955e6f219537d391a62c2c2b976684da282f9cd7cacf",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Text.RegularExpressions.dll",
+        "sha256": "c98a52bd017df01aea7b955e6f219537d391a62c2c2b976684da282f9cd7cacf",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Text.RegularExpressions.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Text.RegularExpressions.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Threading.Overlapped.dll",
+      "sha256": "f17ff442b77a6cfe9c118d2f8fae1ab6c814a0d4f35c5844996be84f3fcc8592",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Threading.Overlapped.dll",
+        "sha256": "f17ff442b77a6cfe9c118d2f8fae1ab6c814a0d4f35c5844996be84f3fcc8592",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Overlapped.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Overlapped.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Threading.Tasks.Parallel.dll",
+      "sha256": "3468e0c875db94a8f45d56ab76bbcc677b942ca51a23649ba3c5ad1b20e391f1",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Threading.Tasks.Parallel.dll",
+        "sha256": "3468e0c875db94a8f45d56ab76bbcc677b942ca51a23649ba3c5ad1b20e391f1",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Tasks.Parallel.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Tasks.Parallel.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Threading.Tasks.dll",
+      "sha256": "0110616dfe870b8bcf25df8f6ce38ef5aac39e728ddaa3420ea199f5a7e80a16",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Threading.Tasks.dll",
+        "sha256": "0110616dfe870b8bcf25df8f6ce38ef5aac39e728ddaa3420ea199f5a7e80a16",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Tasks.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Tasks.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Threading.Thread.dll",
+      "sha256": "9d4faea9892d4ecfabf61986687fc6cb30f5f51a6b62819b9571ff58e04c4dd5",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Threading.Thread.dll",
+        "sha256": "9d4faea9892d4ecfabf61986687fc6cb30f5f51a6b62819b9571ff58e04c4dd5",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Thread.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Thread.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Threading.ThreadPool.dll",
+      "sha256": "3d9ebc81b1bd3234666c8ce403a5f17a726867c68ffa5de4ec8ee92599335658",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Threading.ThreadPool.dll",
+        "sha256": "3d9ebc81b1bd3234666c8ce403a5f17a726867c68ffa5de4ec8ee92599335658",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.ThreadPool.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.ThreadPool.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Threading.Timer.dll",
+      "sha256": "04b9235f64c9c846f8a767230714895da87c7ae2cd0105e9d14835ae46f0fed8",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Threading.Timer.dll",
+        "sha256": "04b9235f64c9c846f8a767230714895da87c7ae2cd0105e9d14835ae46f0fed8",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Timer.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.Timer.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Threading.dll",
+      "sha256": "4dc8d588ec63641c28422d648e8de5e2c030eb7afec2071a99dd3bd9a204557f",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Threading.dll",
+        "sha256": "4dc8d588ec63641c28422d648e8de5e2c030eb7afec2071a99dd3bd9a204557f",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Threading.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.ValueTuple.dll",
+      "sha256": "efd8155cec6f3683b701fe94f555d225332d283126bb36b36d9a20ea9d7fc724",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.ValueTuple.dll",
+        "sha256": "efd8155cec6f3683b701fe94f555d225332d283126bb36b36d9a20ea9d7fc724",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ValueTuple.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.ValueTuple.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Xml.ReaderWriter.dll",
+      "sha256": "5f560e1dd529bb2529d7052e04008449f58d0439c2bb43437d7b5d39f84f949f",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Xml.ReaderWriter.dll",
+        "sha256": "5f560e1dd529bb2529d7052e04008449f58d0439c2bb43437d7b5d39f84f949f",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.ReaderWriter.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.ReaderWriter.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Xml.XDocument.dll",
+      "sha256": "4f6a14e4ba2a2b26b8b8433d5f82f75a96af5a4f036d9447373b07271493917b",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Xml.XDocument.dll",
+        "sha256": "4f6a14e4ba2a2b26b8b8433d5f82f75a96af5a4f036d9447373b07271493917b",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XDocument.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XDocument.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Xml.XPath.XDocument.dll",
+      "sha256": "b33d08149a756a401628d11bfddfeeaca1f03c0578395bb061dae44f8a12ce5d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Xml.XPath.XDocument.dll",
+        "sha256": "b33d08149a756a401628d11bfddfeeaca1f03c0578395bb061dae44f8a12ce5d",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XPath.XDocument.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XPath.XDocument.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Xml.XPath.dll",
+      "sha256": "24daa1faee0478ba58febe8ee789eb88be0a14d350b57ad8b10690c55976b2e1",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Xml.XPath.dll",
+        "sha256": "24daa1faee0478ba58febe8ee789eb88be0a14d350b57ad8b10690c55976b2e1",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XPath.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XPath.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Xml.XmlDocument.dll",
+      "sha256": "8957f0bcea6ab8a011a53ae62466505199f11a228f87f3809931d974f87078ce",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Xml.XmlDocument.dll",
+        "sha256": "8957f0bcea6ab8a011a53ae62466505199f11a228f87f3809931d974f87078ce",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XmlDocument.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XmlDocument.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/System.Xml.XmlSerializer.dll",
+      "sha256": "21493f7f615a099e795f7fae7ecce6082414d1d427790bdf4b103623a3ab34eb",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/System.Xml.XmlSerializer.dll",
+        "sha256": "21493f7f615a099e795f7fae7ecce6082414d1d427790bdf4b103623a3ab34eb",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XmlSerializer.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/System.Xml.XmlSerializer.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "pythonnet/runtime/netstandard.dll",
+      "sha256": "8be4a2270f8b2bea40f33f79869fdcca34e07bb764e63b81ded49d90d2b720dd",
+      "status": "documented_reference",
+      "reference": {
+        "name": "pythonnet/runtime/netstandard.dll",
+        "sha256": "8be4a2270f8b2bea40f33f79869fdcca34e07bb764e63b81ded49d90d2b720dd",
+        "component": "Microsoft.NET.Build.Extensions-2.2.101",
+        "documents": [
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt"
+        ],
+        "basis": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg -> msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/netstandard.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.build.extensions/2.2.101/microsoft.net.build.extensions.2.2.101.nupkg",
+          "archive_sha256": "6b2ec426e20d2e8b9f61dc0f2a025d715a8b3c18a1a6c29c3f2dc7822d47808c",
+          "member": "msbuildExtensions/Microsoft/Microsoft.NET.Build.Extensions/net461/lib/netstandard.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/Microsoft.NET.Build.Extensions-2.2.101/LICENSE.txt": "17cb5c3b3a32d12f43b26eac2d9f8d6295d6705fde8a68b1b63579cafabbe3ee"
+        }
+      }
+    },
+    {
+      "name": "webview/lib/Microsoft.Web.WebView2.Core.dll",
+      "sha256": "8219a3135436c147f8eb02fb831e99596103eebc18b6d7b794ca93f4c67018a2",
+      "status": "documented_reference",
+      "reference": {
+        "name": "webview/lib/Microsoft.Web.WebView2.Core.dll",
+        "sha256": "8219a3135436c147f8eb02fb831e99596103eebc18b6d7b794ca93f4c67018a2",
+        "component": "pywebview-6.2.1",
+        "documents": [
+          "upstream/pywebview-6.2.1/LICENSE",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl -> webview/lib/Microsoft.Web.WebView2.Core.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl",
+          "archive_sha256": "9d07275f53894ab4d5e2e0e996227193e7187dec276d9b624dccbce029216b46",
+          "member": "webview/lib/Microsoft.Web.WebView2.Core.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/pywebview-6.2.1/LICENSE": "4a988dd3598832cd3653de20dc33cb677d0fb53ab5551c879ca31280ae653675",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt": "106423785c5b7eba0a8e61d1837f2132e9c828e20ad530f565d981c1df60dd90"
+        }
+      }
+    },
+    {
+      "name": "webview/lib/Microsoft.Web.WebView2.WinForms.dll",
+      "sha256": "c48f8d729dc531288d2c53a6241effe7922ed1b947850b2442008a945c098c48",
+      "status": "documented_reference",
+      "reference": {
+        "name": "webview/lib/Microsoft.Web.WebView2.WinForms.dll",
+        "sha256": "c48f8d729dc531288d2c53a6241effe7922ed1b947850b2442008a945c098c48",
+        "component": "pywebview-6.2.1",
+        "documents": [
+          "upstream/pywebview-6.2.1/LICENSE",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl -> webview/lib/Microsoft.Web.WebView2.WinForms.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl",
+          "archive_sha256": "9d07275f53894ab4d5e2e0e996227193e7187dec276d9b624dccbce029216b46",
+          "member": "webview/lib/Microsoft.Web.WebView2.WinForms.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/pywebview-6.2.1/LICENSE": "4a988dd3598832cd3653de20dc33cb677d0fb53ab5551c879ca31280ae653675",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt": "106423785c5b7eba0a8e61d1837f2132e9c828e20ad530f565d981c1df60dd90"
+        }
+      }
+    },
+    {
+      "name": "webview/lib/WebBrowserInterop.x64.dll",
+      "sha256": "f6a646470f0e1058224a52e8e2e217501dca46939b30bfc9a5dd4dcdd43f088d",
+      "status": "documented_reference",
+      "reference": {
+        "name": "webview/lib/WebBrowserInterop.x64.dll",
+        "sha256": "f6a646470f0e1058224a52e8e2e217501dca46939b30bfc9a5dd4dcdd43f088d",
+        "component": "pywebview-6.2.1",
+        "documents": [
+          "upstream/pywebview-6.2.1/LICENSE"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl -> webview/lib/WebBrowserInterop.x64.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl",
+          "archive_sha256": "9d07275f53894ab4d5e2e0e996227193e7187dec276d9b624dccbce029216b46",
+          "member": "webview/lib/WebBrowserInterop.x64.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/pywebview-6.2.1/LICENSE": "4a988dd3598832cd3653de20dc33cb677d0fb53ab5551c879ca31280ae653675"
+        }
+      }
+    },
+    {
+      "name": "webview/lib/WebBrowserInterop.x86.dll",
+      "sha256": "4e527297fbea7c5a0419f3a6af307c2681787beb0bf0ef3fea849a7fd85a08dc",
+      "status": "documented_reference",
+      "reference": {
+        "name": "webview/lib/WebBrowserInterop.x86.dll",
+        "sha256": "4e527297fbea7c5a0419f3a6af307c2681787beb0bf0ef3fea849a7fd85a08dc",
+        "component": "pywebview-6.2.1",
+        "documents": [
+          "upstream/pywebview-6.2.1/LICENSE"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl -> webview/lib/WebBrowserInterop.x86.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl",
+          "archive_sha256": "9d07275f53894ab4d5e2e0e996227193e7187dec276d9b624dccbce029216b46",
+          "member": "webview/lib/WebBrowserInterop.x86.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/pywebview-6.2.1/LICENSE": "4a988dd3598832cd3653de20dc33cb677d0fb53ab5551c879ca31280ae653675"
+        }
+      }
+    },
+    {
+      "name": "webview/lib/runtimes/win-arm64/native/WebView2Loader.dll",
+      "sha256": "0937030efc718f3da77c5e0978fb5046e381d0bb7b01acaad31a535a1b588a33",
+      "status": "documented_reference",
+      "reference": {
+        "name": "webview/lib/runtimes/win-arm64/native/WebView2Loader.dll",
+        "sha256": "0937030efc718f3da77c5e0978fb5046e381d0bb7b01acaad31a535a1b588a33",
+        "component": "pywebview-6.2.1",
+        "documents": [
+          "upstream/pywebview-6.2.1/LICENSE",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl -> webview/lib/runtimes/win-arm64/native/WebView2Loader.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl",
+          "archive_sha256": "9d07275f53894ab4d5e2e0e996227193e7187dec276d9b624dccbce029216b46",
+          "member": "webview/lib/runtimes/win-arm64/native/WebView2Loader.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/pywebview-6.2.1/LICENSE": "4a988dd3598832cd3653de20dc33cb677d0fb53ab5551c879ca31280ae653675",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt": "106423785c5b7eba0a8e61d1837f2132e9c828e20ad530f565d981c1df60dd90"
+        }
+      }
+    },
+    {
+      "name": "webview/lib/runtimes/win-x64/native/WebView2Loader.dll",
+      "sha256": "eb5335edeaa6f2122c044e82aab2351dc8c9b4e0fe5e578c71922fb61be285e7",
+      "status": "documented_reference",
+      "reference": {
+        "name": "webview/lib/runtimes/win-x64/native/WebView2Loader.dll",
+        "sha256": "eb5335edeaa6f2122c044e82aab2351dc8c9b4e0fe5e578c71922fb61be285e7",
+        "component": "pywebview-6.2.1",
+        "documents": [
+          "upstream/pywebview-6.2.1/LICENSE",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl -> webview/lib/runtimes/win-x64/native/WebView2Loader.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl",
+          "archive_sha256": "9d07275f53894ab4d5e2e0e996227193e7187dec276d9b624dccbce029216b46",
+          "member": "webview/lib/runtimes/win-x64/native/WebView2Loader.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/pywebview-6.2.1/LICENSE": "4a988dd3598832cd3653de20dc33cb677d0fb53ab5551c879ca31280ae653675",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt": "106423785c5b7eba0a8e61d1837f2132e9c828e20ad530f565d981c1df60dd90"
+        }
+      }
+    },
+    {
+      "name": "webview/lib/runtimes/win-x86/native/WebView2Loader.dll",
+      "sha256": "04814b2c59314c6452d61b821a4a3a5c5f8e8577b55b985f6a7a4b59f8907ec5",
+      "status": "documented_reference",
+      "reference": {
+        "name": "webview/lib/runtimes/win-x86/native/WebView2Loader.dll",
+        "sha256": "04814b2c59314c6452d61b821a4a3a5c5f8e8577b55b985f6a7a4b59f8907ec5",
+        "component": "pywebview-6.2.1",
+        "documents": [
+          "upstream/pywebview-6.2.1/LICENSE",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt"
+        ],
+        "basis": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl -> webview/lib/runtimes/win-x86/native/WebView2Loader.dll",
+        "provenance_status": "upstream_hash_match",
+        "upstream": {
+          "url": "https://files.pythonhosted.org/packages/3d/25/9491695c22c4842c5b3903b4dc172e0eecf67a27c0af34a71512c9b76a0a/pywebview-6.2.1-py3-none-any.whl",
+          "archive_sha256": "9d07275f53894ab4d5e2e0e996227193e7187dec276d9b624dccbce029216b46",
+          "member": "webview/lib/runtimes/win-x86/native/WebView2Loader.dll"
+        },
+        "review_required": false,
+        "document_sha256": {
+          "upstream/pywebview-6.2.1/LICENSE": "4a988dd3598832cd3653de20dc33cb677d0fb53ab5551c879ca31280ae653675",
+          "upstream/WebView2-1.0.3856.49/LICENSE.txt": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55",
+          "upstream/WebView2-1.0.3856.49/NOTICE.txt": "106423785c5b7eba0a8e61d1837f2132e9c828e20ad530f565d981c1df60dd90"
+        }
+      }
+    }
+  ]
+}

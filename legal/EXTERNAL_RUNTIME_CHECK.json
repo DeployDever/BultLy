@@ -1,0 +1,86 @@
+{
+  "scope": "Static filtering and staged-document verification using original EXE bytes; not a rebuilt EXE or Windows runtime test",
+  "original_exe_sha256": "08e71423cd4b0c1bf421d202751accbd32d5285df75b3c41cfc451c9e81bee5f",
+  "original_dlls": 121,
+  "excluded_msvc_dlls": 6,
+  "remaining_dlls": 115,
+  "remaining_provenance_reviews": 0,
+  "minimum_runtime": [
+    14,
+    51,
+    36247,
+    0
+  ],
+  "excluded": [
+    {
+      "destination": "MSVCP140.dll",
+      "system_name": "msvcp140.dll",
+      "excluded_sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+      "excluded_version": [
+        14,
+        51,
+        36247,
+        0
+      ]
+    },
+    {
+      "destination": "VCOMP140.DLL",
+      "system_name": "vcomp140.dll",
+      "excluded_sha256": "95d4ce4a6802d1e18b5e0e1722cc30ea72ca7e033f83828f05c0b7b993fe7cbf",
+      "excluded_version": [
+        14,
+        51,
+        36247,
+        0
+      ]
+    },
+    {
+      "destination": "VCRUNTIME140.dll",
+      "system_name": "vcruntime140.dll",
+      "excluded_sha256": "052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4",
+      "excluded_version": [
+        14,
+        42,
+        34438,
+        0
+      ]
+    },
+    {
+      "destination": "VCRUNTIME140_1.dll",
+      "system_name": "vcruntime140_1.dll",
+      "excluded_sha256": "6a99bc0128e0c7d6cbbf615fcc26909565e17d4ca3451b97f8987f9c6acbc6c8",
+      "excluded_version": [
+        14,
+        42,
+        34438,
+        0
+      ]
+    },
+    {
+      "destination": "llvmlite.libs/msvcp140-8f141b4454fa78db34bc1f28c571b4da.dll",
+      "system_name": "msvcp140.dll",
+      "excluded_sha256": "8f141b4454fa78db34bc1f28c571b4da0e00cd2c43f7ad0e282f313036826aae",
+      "excluded_version": [
+        14,
+        44,
+        35208,
+        0
+      ]
+    },
+    {
+      "destination": "numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "system_name": "msvcp140.dll",
+      "excluded_sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde",
+      "excluded_version": [
+        14,
+        40,
+        33810,
+        0
+      ]
+    }
+  ],
+  "tests": {
+    "unit_tests_passed": 17,
+    "windows_execution": "not available in this Linux environment"
+  }
+}
