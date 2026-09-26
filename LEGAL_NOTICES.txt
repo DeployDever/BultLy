@@ -1,0 +1,95 @@
+BultLy — ข้อมูลซอฟต์แวร์ของบุคคลที่สาม / Third-party notices
+
+The notification icon uses Windows Shell_NotifyIconW directly through ctypes.
+This version does not include or load pystray.
+
+แอปนี้ประกอบด้วยซอฟต์แวร์หลายเจ้าของ สิทธิ์ของแต่ละส่วนเป็นไปตาม
+ใบอนุญาตที่แนบ ไม่ใช่การอ้างว่า BultLy เป็นเจ้าของซอฟต์แวร์เหล่านี้
+ใบอนุญาตฉบับเต็มและประกาศลิขสิทธิ์อยู่ในโฟลเดอร์ legal (ฝังใน EXE และเปิดได้ผ่านเมนูข้อมูลและใบอนุญาต)
+
+รายการรุ่นตั้งต้นจากไฟล์ที่แนบ:
+NumPy 2.3.5 — BSD; includes OpenBLAS, LAPACK and GCC runtime notices/exception.
+Numba 0.65.1 — BSD and bundled third-party notices.
+llvmlite 0.47.0 — BSD-2-Clause; Apache-2.0 with LLVM exception.
+sounddevice 0.5.6 — MIT; standard PortAudio binaries have separate notices.
+PortAudio — Copyright Ross Bencina, Phil Burk and contributors; MIT.
+cffi 2.1.1 — MIT-0, as stated in the supplied distribution.
+pycparser 3.0 — BSD-3-Clause.
+pywebview 6.2.1 — BSD-3-Clause; Microsoft components have separate terms.
+bottle 0.13.4 — MIT.
+pythonnet 3.1.0 / clr_loader 0.3.1 — MIT; bundled native/runtime terms also apply.
+proxy_tools 0.1.0 — source/upstream license is BSD; its MIT metadata conflicts.
+six 1.17.0 — MIT.
+typing_extensions 4.16.0 — PSF-2.0.
+Pillow 12.3.0 — MIT-CMU plus bundled image-library licenses.
+Noto Sans Thai — Copyright 2022 The Noto Project Authors; SIL OFL 1.1.
+Python — PSF license and the other notices in the matching runtime license.
+
+Portions of this software use the FreeType Project; see the complete
+FreeType copyright and license in the Pillow license file. All applicable
+FreeType copyright notices are retained there.
+This software is based in part on the work of the Independent JPEG Group.
+See the complete Pillow license for libjpeg-turbo and other bundled components.
+
+legal/snapshot contains original notices and metadata from the supplied
+environment. legal/upstream contains supplemental, unmodified upstream
+documents. legal/PROVENANCE.json records their sources
+and hashes. Upstream reference documents are not a blanket grant for every
+native binary or later version.
+
+The Windows build embeds legal/current-build using licenses from the actual
+installed package versions and Python runtime. BUILD_INVENTORY.json records
+collected data/binaries and package versions. FILE_HASHES.json records the
+distributed files; neither file is a legal certification.
+
+VB-CABLE is separate software by VB-Audio, not developed or included by
+BultLy. It is donationware; please review its license and support/pay for
+your use as applicable at https://vb-audio.com/Cable/ and
+https://vb-audio.com/Services/licensing.htm . No VB-CABLE driver is bundled.
+
+Microsoft Edge WebView2 Runtime must be installed separately through
+Microsoft. The WebView2 SDK 1.0.3856.49 LICENSE.txt and NOTICE.txt are under
+legal/upstream/WebView2-1.0.3856.49. The original Core DLL matches the official
+NuGet package byte-for-byte. Preserve both documents. Other Microsoft
+components and the separately installed Runtime have their own terms.
+See https://developer.microsoft.com/en-us/microsoft-edge/webview2/
+
+Artwork and branding rights for logo.ico, BultLy must be established
+by the distributor. This engineering update does not certify those rights.
+
+License packaging update, 2026-09-24:
+OpenSSL 3.0.21 — Apache License 2.0. The versioned license is included at
+legal/upstream/OpenSSL-3.0.21/LICENSE.txt. Binary reference hashes identify
+the supplied build; a later or different binary requires renewed review.
+
+legal/current-build/PACKAGE_INVENTORY.json is generated from the selected
+Python modules as well as binaries/data. Any collected setuptools, packaging
+or other additional distribution has its installed license files copied,
+including vendored notices present in that distribution. Supplemental BSD
+notices for proxy_tools are explicitly recorded instead of silently ignored.
+
+legal/current-build/NATIVE_REVIEW.json distinguishes binary references with
+matching hashes from native binaries still requiring provenance review.
+A successful build does not resolve those outstanding entries automatically.
+APP_LICENSE.txt contains the publisher's application terms. It does not replace
+third-party licenses or independently establish redistribution rights.
+
+DLL audit update, 2026-09-26:
+The 96 Microsoft facade assemblies under pythonnet/runtime are not covered
+by Python.NET's MIT license. Their bytes match Microsoft.NET.Build.Extensions
+2.2.101 from the official NuGet feed. The package points to Microsoft's
+.NET Library terms, copied under legal/upstream/Microsoft.NET.Build.Extensions-2.2.101.
+BINARY_LICENSE_REFERENCES.json records exact upstream archive and member hashes.
+A matching source and a license document are recorded separately from any
+publisher-specific obligations. Review entries with review_required=true.
+The audit does not require customers to receive BultLy application source.
+
+External Visual C++ runtime policy, 2026-09-26:
+No MSVCP140, VCOMP140, VCRUNTIME140 or other recognized MSVC v14 runtime
+DLLs are included in the new EXE. Install Microsoft Visual C++ Redistributable
+x64 separately from Microsoft. The runtime hook uses the customer's installed
+system libraries; any hashed-name aliases are created locally on that same
+computer and are not part of the distributed executable. All runtime DLL
+copyright and version data remain unchanged.
+The historical 121-DLL audit describes the earlier executable. For the current
+release, use legal/current-build/NATIVE_REVIEW.json and EXTERNAL_VC_RUNTIME.json.
