@@ -1,0 +1,4 @@
+Pre-packaging audit; not legal certification.
+115 DLL entries inspected; 0 require further review.
+documented_reference means exact recorded bytes and documents, not unconditional permission.
+Windows runtime testing and publisher/branding review are still required.

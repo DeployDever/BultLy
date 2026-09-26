@@ -1,0 +1,171 @@
+[
+  {
+    "name": "bottle",
+    "version": "0.13.4",
+    "license_files": [
+      "bottle-0.13.4.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license_files": [
+      "cffi-2.1.1.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "clr_loader",
+    "version": "0.3.1",
+    "license_files": [
+      "clr_loader-0.3.1.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "llvmlite",
+    "version": "0.47.0",
+    "license_files": [
+      "llvmlite-0.47.0.dist-info/licenses/LICENSE",
+      "llvmlite-0.47.0.dist-info/licenses/LICENSE.thirdparty"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "numba",
+    "version": "0.65.1",
+    "license_files": [
+      "numba-0.65.1.dist-info/licenses/LICENSE",
+      "numba-0.65.1.dist-info/licenses/LICENSES.third-party"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "numpy",
+    "version": "2.3.5",
+    "license_files": [
+      "numpy-2.3.5.dist-info/LICENSE.txt",
+      "numpy/_core/include/numpy/random/LICENSE.txt",
+      "numpy/ma/LICENSE",
+      "numpy/random/LICENSE.md"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license_files": [
+      "packaging-26.3.dist-info/licenses/LICENSE",
+      "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+      "packaging-26.3.dist-info/licenses/LICENSE.BSD"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "license_files": [
+      "pillow-12.3.0.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "proxy_tools",
+    "version": "0.1.0",
+    "license_files": [],
+    "supplemental_license_files": [
+      "supplemental/LICENSE.txt",
+      "supplemental/Werkzeug-0.9.4-LICENSE.txt"
+    ],
+    "review_needed": false
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "license_files": [
+      "pycparser-3.0.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "pythonnet",
+    "version": "3.1.0",
+    "license_files": [
+      "pythonnet-3.1.0.dist-info/licenses/AUTHORS.md",
+      "pythonnet-3.1.0.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "pywebview",
+    "version": "6.2.1",
+    "license_files": [
+      "pywebview-6.2.1.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "setuptools",
+    "version": "84.0.0",
+    "license_files": [
+      "setuptools-84.0.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+      "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+      "setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+      "setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+      "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+      "setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+      "setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+      "setuptools/config/NOTICE",
+      "setuptools/config/_validate_pyproject/NOTICE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license_files": [
+      "six-1.17.0.dist-info/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "sounddevice",
+    "version": "0.5.6",
+    "license_files": [
+      "sounddevice-0.5.6.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license_files": [
+      "typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+    ],
+    "supplemental_license_files": [],
+    "review_needed": false
+  }
+]
