@@ -29,7 +29,7 @@ BultLy เป็นแอปปรับแต่งเสียงบน Window
 | 🔊 เริ่มเสียงอัตโนมัติ | ตั้งค่าแยกจากการเปิดแอปพร้อม Windows |
 
 ## ดาวน์โหลด
-
+[ดาวน์โหลดตัวติดตั้ง Windows](https://github.com/DeployDever/BultLy/releases/latest/download/BultLy-Setup.exe)
 เปิดหน้า **Releases** ของ repository นี้ แล้วเลือกไฟล์ตัวติดตั้งในหัวข้อ **Assets** ของรุ่นที่ต้องการ
 
 - **ไฟล์ `.exe`** — ดาวน์โหลดแล้วเปิดตัวติดตั้งได้เลย
