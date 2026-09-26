@@ -1,0 +1,7 @@
+The runtime end-user license permits installation and use, not redistribution.
+Redistribution must be supported by a separate applicable Visual Studio / Build Tools
+license or other explicit Microsoft grant and its REDIST list. Merely downloading
+the runtime or copying this document does not provide that grant.
+See https://learn.microsoft.com/en-us/cpp/windows/redistributing-visual-cpp-files
+Current runtime license: https://aka.ms/VCRedistLicense
+This note is explanatory and is not a Microsoft license.

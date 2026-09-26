@@ -1,0 +1,12 @@
+{
+  "url": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.3856.49/microsoft.web.webview2.1.0.3856.49.nupkg",
+  "nupkg_sha256": "bc0f76eb911b569838dc4aa8f8d325269b966bedb592863d26211aef3a099f1a",
+  "matching_baseline_dll": [
+    "lib/net462/Microsoft.Web.WebView2.Core.dll",
+    "lib_manual/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll"
+  ],
+  "documents": [
+    "legal/upstream/WebView2-1.0.3856.49/LICENSE.txt",
+    "legal/upstream/WebView2-1.0.3856.49/NOTICE.txt"
+  ]
+}
